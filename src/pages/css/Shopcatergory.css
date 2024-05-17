@@ -1,0 +1,31 @@
+.shop-category {
+    overflow-x: hidden;
+   
+}
+.shop-category .ban{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.sort button{
+    width: 100px;
+    padding: 3px;
+    margin-right: 60px;
+}
+.shopcategory-indexsort{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.shopcategory-indexsort p{
+    margin-left: 20px;
+}
+
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding-left: 20px;
+    margin-top: 30px; /* Adjust the gap between items as needed */
+}

@@ -1,0 +1,21 @@
+.item{
+    width: 350px;
+}
+
+.item p{
+    margin:6px 0px;
+}
+.item .price{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.new-price{
+    font-size: 10px;
+    color: black;
+}
+.old-price{
+    font-size: 10px;
+    color: #8c8c8c;
+    text-decoration: line-through;
+}

@@ -1,0 +1,25 @@
+.footer{
+    margin-top:10%;
+}
+.footer .shopper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap:25px;
+    padding-top:30px;
+    cursor: pointer;
+}
+.footer .social{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 25px;
+}

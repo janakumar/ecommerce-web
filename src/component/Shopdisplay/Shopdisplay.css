@@ -1,0 +1,67 @@
+.product-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-display .left-product{
+    display: flex;
+    flex-direction: column;
+}
+.left-product{
+    padding-top: 50px;
+    padding-left: 140px;
+    width: 75px;
+    gap: 20px;
+}
+.right-product{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.product-content{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.product-content .quality{
+    padding-top: 15px;
+}
+.price{
+    padding-top: 15px;
+}
+.desc{
+    padding-top: 15px;
+}
+.size{
+    padding-top: 15px;
+}
+.size button{
+    background-color:beige;
+    color: black;
+    width: 40px;
+    gap:20px;
+    border-radius: 0px;
+}
+.price p{
+    text-decoration: line-through;
+}
+.price{
+    display: flex;
+    gap:10px;
+}
+.cart{
+    padding-top: 15px;
+}
+.cart button{
+    width: 200px;
+    border-radius: 0px;
+    background: #ff4141;
+    color: white;
+}
+.size button {
+    margin-right: 10px; 
+    margin-top: 10px;/* Adjust the value to your desired gap size */
+}
+
+.category{
+    padding-top: 15px;
+}

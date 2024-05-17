@@ -1,0 +1,18 @@
+.new-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.new-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px; /* Adjust the gap between items as needed */
+}
+.new-collection hr{
+    width: 300px;
+    color: #252525;
+    border: 2px solid black;
+}
